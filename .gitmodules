@@ -1,0 +1,4 @@
+[submodule "baselines"]
+	path = baselines
+	url = https://github.com/ywchao/baselines.git
+	branch = merel-mocap-gail
