@@ -2,3 +2,6 @@
 	path = baselines
 	url = https://github.com/ywchao/baselines.git
 	branch = merel-mocap-gail
+[submodule "dm_control"]
+	path = dm_control
+	url = git@github.com:deepmind/dm_control.git

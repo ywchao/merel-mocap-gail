@@ -30,8 +30,20 @@ Make sure the following are installed.
         ```
 
     2. Go through the installation steps in this [README](https://github.com/ywchao/baselines/tree/merel-mocap-gail) without re-cloning the repo.
-- [dm_control](https://github.com/deepmind/dm_control)
-    - This requires the installation of [MuJoCo](http://www.mujoco.org/).
+- [An old verion of dm_control](https://github.com/deepmind/dm_control) provided as a submodule
+    1. Change the directory:
+
+        ```Shell
+        cd dm_control
+        ```
+
+    2. Go through the installation steps in this [README](https://github.com/deepmind/dm_control/tree/c24ec9f5f3cb3c25c6571c89c9f60bf3350f5711) without re-cloning the repo. This requires the installation of [MuJoCo](http://www.mujoco.org/). Also make sure to install the cloned verion:
+
+        ```Shell
+        pip install .
+        ```
+
+    Note that we have only tested on this version. The code might work with newer versions but it is not guaranteed.
 - [Matplotlib](https://matplotlib.org/)
 
 ## Training and Visualization
